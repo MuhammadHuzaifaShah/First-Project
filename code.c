@@ -10,7 +10,7 @@ int main(){
     // printf("Random Number: %d\n", random_number); // Print the random number
    
     do{
- printf("guess the number");
+ printf("guess the number: ");
  scanf("%d", &guessed_number);
  if(guessed_number > random_number){
      printf("lower number please\n");
